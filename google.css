@@ -1,0 +1,223 @@
+html
+{
+	font-family: calibri;
+}
+
+header
+{
+	
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right:0;
+	top:3;
+	margin-right: 8px;
+	margin-top: 5px;
+}
+.drive
+{
+	width: 17px;
+	height: 17x;
+}
+.gmail
+{
+	width: 32px;
+	height: 32px;
+}
+span
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.boutonb
+{
+	padding: 8px 20px 8px 20px;
+	border: solid #F2F2F2 1px;
+
+	font-size: 14px;
+	color: white;
+	background-color: #1a73e8;
+	border-radius: 5px;
+}
+
+.boutonb:hover
+{
+box-shadow: 1px 1px #DADCE0, -1px -1px #DADCE0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.partager
+{
+	position: absolute;
+	top:125px;
+	left: 500px;
+}
+.gif
+{
+	position: relative;
+	right:-80px;
+	width: 70%;
+	height:70%;
+}
+.roi
+{
+	position: absolute;
+	top: 50px;
+	left:29%;
+	
+}
+.formulaire
+{
+position:relative;
+
+
+}
+.loupe
+{
+	position: absolute;
+	top:15px;
+	left:15px;
+	width: 13px;
+	height: 13px;
+}
+
+
+.searchbar
+{
+	margin-top: 16px;
+
+}
+
+.bouton
+{
+	padding: 8px 20px 8px 20px;
+	border: solid #F2F2F2 1px;
+
+	font-size: 14px;
+	color: #3C4043;
+	background-color: #F8F9FA;
+	border-radius: 5px;
+}
+
+.bouton:hover
+{
+box-shadow: 1px 1px #DADCE0, -1px -1px #DADCE0;
+}
+.boutons
+{
+	
+	padding-left: 20%;
+}
+.champ
+{
+	width: 557px;
+	height: 42px;
+	border-radius: 50px;
+	margin-bottom: 25px;
+	border:solid #DADCE0 1px;
+	padding-left: 40px;
+	font-size: 16px;
+}
+.champ:hover
+{
+	box-shadow: 1px 1px #DADCE0, -1px -1px #DADCE0;
+}
+
+a
+{
+	color:#70757A;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+.drive:hover,.gmail:hover
+{
+
+border: solid 3px #DADCE0;	
+border-radius: 100%;
+}
+
+.co
+{
+background-color: #FFFFFF;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+	background-color: #F2F2F2;
+	position: absolute;
+	bottom:0px;
+	width: 99.9%;
+	margin: 0px 0px 0px -7px
+
+}
+
+
+.bas
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 14px;
+	color:#70757A;
+}
+.fr
+{
+	padding: 14px;
+	border: solid #DADCE0 1px;
+	border-top: solid #F2F2F2 1px;
+	color:#70757A;
+}
+.feuille
+{
+	width: 12px;
+	height: 12px;
+}
+
+#overlay{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1000;
+}
+#overlay:target{
+    display: block;
+}
